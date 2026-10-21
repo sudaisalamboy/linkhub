@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0a0a0f;
+  --card: #16161e;
+  --accent: #7c3aed;
+  --accent-light: #a78bfa;
+  --text: #e2e8f0;
+  --text-dim: #94a3b8;
+  --border: rgba(255,255,255,0.08);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: var(--bg); color: var(--text); font-family: 'Inter', -apple-system, sans-serif; overflow-x: hidden; }
+a { color: inherit; text-decoration: none; }
